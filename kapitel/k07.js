@@ -33,6 +33,10 @@ document.addEventListener('DOMContentLoaded', function () {
             Solange, wie die Zahl kleiner als 5 ist läuft die Schleife.
             Und jedes mal nach der Schlaufe erhöht sich i um 1. 
             Aufgrund dieser Angaben, läuft die Schleife genau 5 Mal ab. 
+
+            Ohne Schlaufe müsste, um den selben Output zu erreichen, fünf mal 
+            ein console.log()-Befehl geschrieben werden. Schlaufen versuchen das zu vereinfachen
+            und schneller zu machen.
     
     ## FOR-SCHLAUFEN UND ARRAYS
             Diese For-Schleifen können nun auch genutzt werden, um durch Arrays zu iterieren. Sprich: 
