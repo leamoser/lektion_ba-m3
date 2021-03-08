@@ -1,57 +1,57 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     /*============= THEORIE und BEISPIELE =============*/
-    /*-- hier lernst du die theoretischen Grundlagen des Kapitels --*/
+    /*-- Hier lernst du die theoretischen Grundlagen des Kapitels --*/
+    console.log('%cTHEORIE', 'font-size: 20px');
 
-    /*
-    ## Indexierung
+    /* ## INDEXIERUNG
             Im vorherigen Kapitel hast du dir als letztes einen Array in der Konsole ausgegeben 
-            und genau angeschaut. 
-            In der Konsole ist nochmals ein Array ausgegeben. 
-    */
+            und genau angeschaut. In der Konsole ist nochmals ein Array ausgegeben. */
+
     const menschen = ['Hans', 'Kim', 'Fiona', 'Henry'];
     console.log(menschen);
-    /*
-            Wenn du dir den ansiehst, siehst du dass die einzelnen Items im Array durchnummeriert sind. 
+
+    /*      Wenn du dir den ansiehst, siehst du dass die einzelnen Items im Array durchnummeriert sind. 
             Die Nummerierung fängt jeweils bei 0 an. Das ist typisch für Arrays und IMMER so.
-            Der Nummer, die einem Array zugeweisen ist sagt man auch Index. 
+            Der Nummer, die einem Array zugeweisen ist, sagt man auch Index. Dieses Konzept wird im
+            Verlaufe der Lektion noch wichtig.
 
     ## LÄNGE AUSLESEN
-            Eine weitere wichtige Grundlage im Thema Arrays ist es, zu wissen wie man rausfindet
-            wie lange ein Array ist. Sprich wie viele Items darin abgespeichert sind. 
-            Das geht wie folgt: 
-    */
+            Eine weitere wichtige Grundlage im Thema Arrays ist, zu wissen wie man rausfindet
+            wie 'lange' ein Array ist. Sprich wie viele Items darin abgespeichert sind. 
+            Das geht wie folgt: */
+
     console.log('Anzahl Items im Array; ', menschen.length);
 
 
 
 
-
-    /*============= ÜBUNGEN =============*/
+    /*================== ÜBUNGEN ==================*/
     /*-- Hier kannst du Übungen lösen --*/
+    console.log('%cÜBUNGEN', 'font-size: 20px; margin:50px 0 0 0');
 
     // Welche Index-Nummer hat die Zahl 21 in diesem Array?
     //Schreibe die Antwort als Wert in die Variabel 'index'
     const numbers = [1, 44, 0, 21, 3];
     let index;
+    console.log('index:', index)
 
-    //Gib in der Variabel 'items' die Länge des Arrays aus
+    //Gib in der Variabel 'items' die Länge des Arrays 'numbers' aus
     let items;
+    console.log('items:', items);
 
 
 
 
-
-
-    /*============== KORREKTUR ==============*/
+    /*================ KORREKTUR ================*/
     /*-- bitte diesen Teil NICHT bearbeiten --*/
-    console.log('%c-------⬇--------TESTS-------⬇--------', 'margin:100px 0 0 0')
+    console.log('%cKONTROLLE DER ÜBUNGEN', 'font-size: 20px; margin:50px 0 0 0');
     function test(test_name, expr) {
         let status;
         if (expr) {
-            status = "PASSED";
+            status = "KORREKT ✅";
         } else {
-            status = "FAILED";
+            status = "NOCH NICHT KORREKT ❌";
         }
         console.log(`${test_name}: ${status}`);
     }
