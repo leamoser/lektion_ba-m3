@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     /*============= THEORIE und BEISPIELE =============*/
     /*-- Hier lernst du die theoretischen Grundlagen des Kapitels --*/
-    console.log('%cTHEORIE', 'font-size: 20px');
+    console.log('%cKapitel 01 - Was ist ein Array?', 'font-size: 20px; color: #eb8e96; text-decoration: underline');
+    console.log('%cTHEORIE', 'font-size: 20px; margin:50px 0 0 0');
     console.log('Keine Konsolen-Ausgaben in der Theorie.')
 
     /* ## UM WAS ES GEHT
