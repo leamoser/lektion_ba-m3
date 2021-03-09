@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     let buildDom = () => {
         container.appendChild(buildElement('h1', 'Kapitel 10 - forEach()-Schlaufe'));
-        container.appendChild(buildElement('p', 'Löse die Übungen in der Datei kapitel/k10.js.'));
+        container.appendChild(buildElement('p', 'Löse die Übungen in der Datei kapitel/k10.js und halte die Konsole im Browser geöffnet.'));
     }
 
     //INIT

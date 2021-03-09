@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     let buildDom = () => {
         container.appendChild(buildElement('h1', 'Kapitel 05 - Manipulationen Teil 3'));
-        container.appendChild(buildElement('p', 'Löse die Übungen in der Datei kapitel/k05.js.'));
+        container.appendChild(buildElement('p', 'Löse die Übungen in der Datei kapitel/k05.js und halte die Konsole im Browser geöffnet.'));
     }
 
     //INIT

@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     let buildDom = () => {
         container.appendChild(buildElement('h1', 'Kapitel 08 - While-Schleife'));
-        container.appendChild(buildElement('p', 'Löse die Übungen in der Datei kapitel/k08.js.'));
+        container.appendChild(buildElement('p', 'Löse die Übungen in der Datei kapitel/k08.js und halte die Konsole im Browser geöffnet.'));
     }
 
     //INIT

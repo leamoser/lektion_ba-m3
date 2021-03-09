@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     let buildDom = () => {
         container.appendChild(buildElement('h1', 'Kapitel 09 - For-Schlaufe & mehrstufige Arrays'));
-        container.appendChild(buildElement('p', 'Löse die Übungen in der Datei kapitel/k09.js.'));
+        container.appendChild(buildElement('p', 'Löse die Übungen in der Datei kapitel/k09.js und halte die Konsole im Browser geöffnet.'));
     }
 
     //INIT

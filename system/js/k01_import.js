@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     let buildDom = () => {
         container.appendChild(buildElement('h1', 'Kapitel 01 - Was ist ein Array?'));
-        container.appendChild(buildElement('p', 'Löse die Übungen in der Datei kapitel/k01.js'));
+        container.appendChild(buildElement('p', 'Löse die Übungen in der Datei kapitel/k01.js und halte die Konsole im Browser geöffnet.'));
     }
 
     //INIT

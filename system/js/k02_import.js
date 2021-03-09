@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     let buildDom = () => {
         container.appendChild(buildElement('h1', 'Kapitel 02 - Indexierung'));
-        container.appendChild(buildElement('p', 'Löse die Übungen in der Datei kapitel/k02.js'));
+        container.appendChild(buildElement('p', 'Löse die Übungen in der Datei kapitel/k02.js und halte die Konsole im Browser geöffnet.'));
     }
 
     //INIT

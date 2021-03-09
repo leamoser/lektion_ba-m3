@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     let buildDom = () => {
         container.appendChild(buildElement('h1', 'Kapitel 06 - Assoziative Arrays'));
-        container.appendChild(buildElement('p', 'Löse die Übungen in der Datei kapitel/k06.js.'));
+        container.appendChild(buildElement('p', 'Löse die Übungen in der Datei kapitel/k06.js und halte die Konsole im Browser geöffnet.'));
     }
 
     //INIT
