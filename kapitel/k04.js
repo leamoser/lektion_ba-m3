@@ -1,9 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-        /*============= THEORIE und BEISPIELE =============*/
-        /*-- Hier lernst du die theoretischen Grundlagen des Kapitels --*/
         console.log('%cKapitel 04 - Manipulationen Teil 2', 'font-size: 20px; color: #eb8e96; text-decoration: underline');
         console.log('%cTHEORIE', 'font-size: 20px; margin:50px 0 0 0');
+
+        //KAPITEL 4 - MANIPULATIONEN TEIL 2========================================================================
+
+        /*============= THEORIE und BEISPIELE =============*/
+        /*-- Hier lernst du die theoretischen Grundlagen des Kapitels --*/
 
         /* ## WERTE HINZUFÜGEN
                 Um einem Array Werte hinzuzufügen wurde in Kapitel 3 schon eine Methode vorgestellt. 

@@ -1,10 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    /*============= THEORIE und BEISPIELE =============*/
-    /*-- Hier lernst du die theoretischen Grundlagen des Kapitels --*/
     console.log('%cKapitel 01 - Was ist ein Array?', 'font-size: 20px; color: #eb8e96; text-decoration: underline');
     console.log('%cTHEORIE', 'font-size: 20px; margin:50px 0 0 0');
     console.log('Keine Konsolen-Ausgaben in der Theorie.')
+
+    //KAPITEL 1 - WAS IST EIN ARRAY?============================================================================
+
+    /*============= THEORIE und BEISPIELE =============*/
+    /*-- Hier lernst du die theoretischen Grundlagen des Kapitels --*/
+
 
     /* ## UM WAS ES GEHT
             In dieser Unterrichtslektion lernst du alles über Arrays und Schleifen. Bevor das Thema

@@ -1,9 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    /*============= THEORIE und BEISPIELE =============*/
-    /*-- Hier lernst du die theoretischen Grundlagen des Kapitels --*/
     console.log('%cKapitel 05 - Manipulationen Teil 3', 'font-size: 20px; color: #eb8e96; text-decoration: underline');
     console.log('%cTHEORIE', 'font-size: 20px; margin:50px 0 0 0');
+
+    //KAPITEL 5 - MANIPULATIONEN TEIL 3========================================================================
+
+    /*============= THEORIE und BEISPIELE =============*/
+    /*-- Hier lernst du die theoretischen Grundlagen des Kapitels --*/
 
     /* ## SPLICE
             Die wohl mächtigste und koplizierteste Methode um Arrays zu manipulieren ist .splice()

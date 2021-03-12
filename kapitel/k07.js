@@ -1,9 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    /*============= THEORIE und BEISPIELE =============*/
-    /*-- hier lernst du die theoretischen Grundlagen des Kapitels --*/
     console.log('%cKapitel 07 - For-Schleife', 'font-size: 20px; color: #eb8e96; text-decoration: underline');
     console.log('%cTHEORIE', 'font-size: 20px; margin:50px 0 0 0');
+
+    //KAPITEL 7 - FOR-SCHLEIFE============================================================================
+
+    /*============= THEORIE und BEISPIELE =============*/
+    /*-- hier lernst du die theoretischen Grundlagen des Kapitels --*/
 
     /* ## INTRO - SCHLEIFEN UND ARRAYS
             Über Arrays weisst du mittlerweilen ziemlich viel. Jetzt kommen die Schleifen dazu. 

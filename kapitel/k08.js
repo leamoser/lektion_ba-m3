@@ -1,9 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    /*============= THEORIE und BEISPIELE =============*/
-    /*-- hier lernst du die theoretischen Grundlagen des Kapitels --*/
     console.log('%cKapitel 08 - While-Schleife', 'font-size: 20px; color: #eb8e96; text-decoration: underline');
     console.log('%cTHEORIE', 'font-size: 20px; margin:50px 0 0 0');
+
+    //KAPITEL 8 - WHILE-SCHLEIFE===========================================================================
+
+    /*============= THEORIE und BEISPIELE =============*/
+    /*-- hier lernst du die theoretischen Grundlagen des Kapitels --*/
 
     /* ## WHILE-SCHLEIFE
             Die zweite Schleife, die in JavScript wichtig ist, ist die while-Schleife.

@@ -1,9 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    /*============= THEORIE und BEISPIELE =============*/
-    /*-- hier lernst du die theoretischen Grundlagen des Kapitels --*/
     console.log('%cKapitel 09 - For-Schlaufe & mehrstufige Arrays', 'font-size: 20px; color: #eb8e96; text-decoration: underline');
     console.log('%cTHEORIE', 'font-size: 20px; margin:50px 0 0 0');
+
+    //KAPITEL 9 - FOR-SCHLEIFE & MEHRSTUFIGE ARRAYS==============================================================
+
+    /*============= THEORIE und BEISPIELE =============*/
+    /*-- hier lernst du die theoretischen Grundlagen des Kapitels --*/
 
     /* ## METHRSTUFIGE ARRAYS
             Arrays haben wir ja schon kennengelernt. Dort wurden jeweils Werte in einem Array gespeichert,
