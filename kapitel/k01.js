@@ -36,7 +36,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     /*      Die Eckigen klammern zeigen JavaScript, dass es sich um einen Array handelt. 
             Die einzelnen Werte im Array werden per Komma abgetrennt. Es können in einem Array
-            Strings, Nummern, Boolsche Werte, weitere Arrays, usw. abgespeichert werden. */
+            Strings, Nummern, Boolsche Werte, weitere Arrays, usw. abgespeichert werden. 
+
+            Mehr Infos zu Arrays: https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Array*/
 
 
 
@@ -45,11 +47,11 @@ document.addEventListener('DOMContentLoaded', function () {
     /*-- Hier kannst du Übungen lösen --*/
     console.log('%cÜBUNGEN', 'font-size: 20px; margin:50px 0 0 0');
 
-    //Schreibe hier einen Array und speichere diesen in der schon definierten Variabel `meine_wg` ab.
+    //1. Schreibe hier einen Array und speichere diesen in der schon definierten Variabel `meine_wg` ab.
     //Füge in den Array alle Menschen ein, mit welchen du zusammen wohnst.
     let meine_wg;
 
-    //Gib hier den Array in der Konsole aus und schau dir die Ausgabe genau an.
+    //2. Gib hier den Array in der Konsole aus und schau dir die Ausgabe genau an.
 
 
 

@@ -10,22 +10,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
     /* ## INDEXIERUNG
             Im vorherigen Kapitel hast du dir als letztes einen Array in der Konsole ausgegeben 
-            und genau angeschaut. In der Konsole ist nochmals ein Array ausgegeben. */
+            und genau angeschaut. Unten wird der Array 'menschen' in der Konsole ausgegeben.
+            Sieh dir den Output in der Kosole nochmals genau an. */
 
     const menschen = ['Hans', 'Kim', 'Fiona', 'Henry'];
-    console.log(menschen);
+    console.log('Array "menschen":', menschen);
 
     /*      Wenn du dir den ansiehst, siehst du dass die einzelnen Items im Array durchnummeriert sind. 
             Die Nummerierung fängt jeweils bei 0 an. Das ist typisch für Arrays und IMMER so.
-            Der Nummer, die einem Array zugeweisen ist, sagt man auch Index. Dieses Konzept wird im
+            Der Nummer, die einem Array-Item zugeweisen ist, sagt man auch Index. Dieses Konzept wird im
             Verlaufe der Lektion noch wichtig.
 
     ## LÄNGE AUSLESEN
             Eine weitere wichtige Grundlage im Thema Arrays ist, zu wissen wie man rausfindet
-            wie 'lange' ein Array ist. Sprich wie viele Items darin abgespeichert sind. 
+            wie viele Items in einem Array abgespeichert sind.  
             Das geht wie folgt: */
 
-    console.log('Anzahl Items im Array; ', menschen.length);
+    console.log('Anzahl Items im Array "menschen": ', menschen.length);
 
 
 
@@ -36,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Welche Index-Nummer hat die Zahl 21 in diesem Array?
     //Schreibe die Antwort als Wert in die Variabel 'index'
-    const numbers = [1, 44, 0, 21, 3];
+    const numbers = [1, 44, 0, 21, 3, -2, 11, 15, 98, 109, 22, 33, 10, 21];
     let index;
     console.log('index:', index)
 
@@ -65,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
     );
     test(
         "Die Länge vom Array 'numbers' wurde ausgelesen",
-        items === 5
+        items === (9128 / 652)
     );
 
 

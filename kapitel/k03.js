@@ -9,12 +9,16 @@ document.addEventListener('DOMContentLoaded', function () {
     /*-- Hier lernst du die theoretischen Grundlagen des Kapitels --*/
 
     /* ## WERTE AUSLESEN
-            Bis jetzt wurde gelernt, wie der gesamte Array ausgegeben werden kann. 
+            Bis jetzt wurde in der Konsole immer der ganze Array ausgelesen. 
             Doch aus Arrays lassen sich auch einzelne Werte auslesen. Dafür ist es wichtig zu wissen,
-            dass die Indexierung, IMMER bei 0 beginnt. Einen einzelnen Wert liest man so aus: */
+            dass die Indexierung, IMMER bei 0 beginnt. 
+            Einen einzelnen Wert liest man so aus: */
 
     let menschen = ['Hans', 'Kim', 'Fiona', 'Henry'];
     console.log(menschen[1]);
+
+    /*      Man gibt in den eckigen Klammern nach dem Array die Indexnummer des Wertes mit,
+            den man auslesen will. */
 
     /* ## WERT ÄNDERN
             Mit einer ähnlichen Methode lassen sich auch Werte im Array ändern. 
@@ -23,6 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log("Array 'menschen' vorher; ", menschen)
     menschen[1] = 'Janine';
     console.log("Array 'menschen' nachher; ", menschen);
+
+    /*      Der Wert mit der Indexnummer 1 wurde durch den neuen Wert 'Janine' ersetzt */
 
     /* ## WERT ANHÄNGEN
             Auch Werte angehängt werden können mit dieser Methoden. */

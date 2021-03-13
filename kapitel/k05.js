@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     /* ## SPLICE
             Die wohl mächtigste und koplizierteste Methode um Arrays zu manipulieren ist .splice()
-            Eine Splice-Funtktion benötigt drei Parameter
+            Eine Splice-Funtktion benötigt drei Parameter.
 
             1. Index, an welchem gestartet wird -> (eine Zahl)
             2. Anzahl Elemente, die von diesem Index an gelöscht werden sollen -> (eine Zahl)
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
             Von dieser Position an wurden dann 2 Items entfernt (also Kim und Fiona).
             Am Schluss wurde dann an dieser Position noch ein Item (Mia) hinzugefügt. 
 
-            Mit der splice()-Methode lassen sich demnach sehr viele Dinge anstellen. */
+            Mit der splice()-Methode lassen sich sehr viele Dinge anstellen. */
 
     //Mehr Infos: https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
 
